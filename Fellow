@@ -1,0 +1,49 @@
+#Installing and activating virtual environment:
+    python -m pip install virtualenv
+    python -m venv venv
+    source venv/Scripts/activate
+
+#Installing and activiting Django:
+    python -m django --version
+    python -m pip install Django
+
+#Installing and activiting Django Rest Framework:
+    pip install djangorestframework
+
+#Create Django Project
+    django-admin startproject dashboard .
+    #This command generates a skeletal framework with crucial configurations and settings:
+
+        The_Paddock_Hub/
+        ├── backend/              # Django backend (API, models, etc.)
+        │   ├── manage.py
+        │   ├── dashboard/
+        │   │   ├── __init__.py
+        │   │   ├── settings.py
+        │   │   ├── urls.py
+        │   │   ├── wsgi.py
+        │   │   ├── asgi.py 
+
+#
+    python manage.py makemigrations
+
+    python manage.py migrate
+
+#Run the django server
+    python manage.py runserver
+
+
+
+
+
+#
+    python -m pip install django-cors-headers
+
+
+
+
+#React front end
+    npm run dev
+
+
+# Creating Database models and adding data
