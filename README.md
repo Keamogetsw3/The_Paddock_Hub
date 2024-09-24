@@ -7,9 +7,9 @@ The paddock hub is an interactive statistics website that provides real-time dat
 ## Features
 
 - **Real-time Stats**: Data fetched from external APIs for teams and players.
-- **React Frontend**: Dynamic, interactive UI for viewing soccer stats.
+- **React Frontend**: Dynamic, interactive UI for viewingstats.
 - **Modular Django Apps**: Each league is handled by a separate Django app for maintainability and scalability.
-- **PostgreSQL**: Used as the database for storing and managing league, team, and player data.
+- **PostgreSQL**: Used as the database for storing and managing catergories, team, and player data.
 
 ## Architecture
 
