@@ -1,0 +1,49 @@
+# Python
+*.py[cod]
+__pycache__/
+*.so
+
+# Django
+db.sqlite3
+*.log
+local_settings.py
+media/
+
+# Virtual Environment
+venv/
+env/
+
+# Environment variables
+.env
+*.env
+
+# Caches
+*.pyc
+*.pyo
+*.pyd
+
+# Logs
+*.log
+
+# React
+node_modules/
+build/
+dist/
+*.tmp
+*.temp
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# PostgreSQL
+*.pgsql
+.pgpass
+
+# Docker
+.dockerignore
+docker-compose.override.yml
+docker-compose.yml
+*.env
+
+# VSCode
+.vscode/
