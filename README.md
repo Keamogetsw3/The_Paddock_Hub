@@ -4,6 +4,10 @@
 
 The paddock hub is an interactive statistics website that provides real-time data from multiple mototrsport categories,  This website is built using Django for the backend and React for the frontend, with PostgreSQL as the database.
 
+## AUTHORS
+
+Keamogetswe M - responsible for both the front- and backend development
+
 ## Features
 
 - **Real-time Stats**: Data fetched from external APIs for teams and players.
